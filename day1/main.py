@@ -1,4 +1,4 @@
-with open('day1_input.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     lines = f.read().splitlines()
 
 calories = 0
