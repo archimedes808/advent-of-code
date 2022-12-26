@@ -11,3 +11,6 @@ for line in lines:
         elves.append(calories)
         calories = 0
 print(max(elves))
+
+elves.sort()
+print(sum(elves[-3:]))
